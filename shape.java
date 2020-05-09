@@ -9,4 +9,5 @@ public abstract class Shape {
         return name;
     }
     public abstract double splitString(String key);
+    public abstract String splitString2(String key);
 }
