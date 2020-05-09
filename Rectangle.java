@@ -1,8 +1,8 @@
 public class Rectangle extends Shape implements AreaCalculable{
-    public String h;
+    public double h;
     public double w;
     
-    public Rectangle(String name,Srting h){
+    public Rectangle(String name,double h){
         super(name);
         this.h = h;
     }
@@ -17,5 +17,10 @@ public class Rectangle extends Shape implements AreaCalculable{
 
     public double getArea(){
         return h*w;
+    }
+    public void zoom(double factor)
+    {
+        w = w*factor;
+        h = h*factor;
     }
 }
