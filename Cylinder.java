@@ -1,3 +1,3 @@
-public class Cylinder implements AreaCalculable {
+public class Cylinder implements AreaCalculable, Zoomable {
     
 }
