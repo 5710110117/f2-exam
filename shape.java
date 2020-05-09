@@ -1,4 +1,4 @@
-public abstract class Shape {
+public abstract class Shape implements Zoomable {
     public String name;
 
     public Shape(String name)
@@ -8,6 +8,5 @@ public abstract class Shape {
     public String getName(){
         return name;
     }
-    public abstract double splitString(String key);
-    public abstract String splitString2(String key);
+   
 }
