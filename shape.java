@@ -8,5 +8,5 @@ public abstract class Shape {
     public String getName(){
         return name;
     }
-    public abstract String void splitString();
+    public abstract double splitString();
 }
