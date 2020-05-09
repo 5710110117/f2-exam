@@ -5,4 +5,7 @@ public abstract class shape {
     {
     this.name =name;
     }
+    public String getName(){
+        return name;
+    }
 }
