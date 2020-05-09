@@ -1,4 +1,4 @@
-public abstract class shape {
+public abstract class Shape {
     public String name;
 
     public Shape(String name)
@@ -8,4 +8,5 @@ public abstract class shape {
     public String getName(){
         return name;
     }
+    public abstract String void splitString();
 }
