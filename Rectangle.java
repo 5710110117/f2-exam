@@ -6,13 +6,16 @@ public class Rectangle extends Shape implements AreaCalculable{
         super(name);
         this.h = h;
     }
-    public void  setH(double h){
-        this.h;
+
+    public void  setw(double w){
+        this.w =w;
     }
-    public double getH(){
-        return h;
+
+    public double getw(){
+        return w;
     }
+
     public double getArea(){
-        return Math.PI*radius*radius;
+        return h*w;
     }
 }
